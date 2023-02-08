@@ -1,0 +1,86 @@
+/* author:vincy p varghese */
+body {
+    border: 2px solid;
+}
+.banner {
+    display: flex;
+    background-image: url(../images/academy-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    /* font-size: 18px; */
+}
+
+.coursedetail {
+    margin-left: -73px;
+}
+
+.coursedetail p::after {
+    content: "}";
+    color: #ff0000;
+}
+.coursedetail p::before {
+    content: "{";
+    color: #ff0000;
+}
+.php {
+    background: url(../images/modulebg.jpg);
+    height: 100vh;
+}
+.psql > div div {
+    margin-top: 10%;
+    border-radius: 15px;
+    padding: 10px 55px;
+    text-align: center;
+}
+.imgcontainer {
+    background-image: url(../images/testsbg.jpg);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 500px;
+    padding: 25px;
+}
+.secondimg {
+    background-image: url(../images/intrvwbg.jpg);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 500px;
+    padding: 25px;
+}
+.pimg {
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.733);
+    flex-wrap: wrap;
+    padding: 25%;
+    color: white;
+}
+.contact {
+    text-align: center;
+}
+.address {
+    width: 100%;
+    justify-content: center;
+}
+.ahead {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.head2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+@media screen and (max-width: 576px) {
+    .imgcontainer {
+        width: 100%;
+        background-size: cover;
+        padding: 25px;
+    }
+    .secondimg {
+        width: 100%;
+        background-size: cover;
+        padding: 25px;
+    }
+}
